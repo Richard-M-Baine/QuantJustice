@@ -6,16 +6,16 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// FIX: Whitelist the actual FRONTEND domain names
 app.use(cors({
   origin: [
-    'http://localhost:3000',                            // For local dev frontend
-    'https://quantjustice-production.up.railway.app/'   // Your production Railway frontend
+    'http://localhost:3000',
+    'https://quantjustice-production.up.railway.app'
   ],
   credentials: true
 }));
 
-app.use(express.json());
+app.options('*', cors());
+
 
 // Mount the central router
 app.use('/api', mainRoutes);

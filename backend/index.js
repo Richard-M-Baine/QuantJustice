@@ -14,7 +14,7 @@ app.use(cors({
   credentials: true
 }));
 
-
+app.options('*', cors());
 
 
 // Mount the central router

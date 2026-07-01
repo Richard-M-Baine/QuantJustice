@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors({
   origin: [
     'http://localhost:3000',                            // For local dev frontend
-    'https://quantmvp-production-6066.up.railway.app'   // Your production Railway frontend
+    'https://quantjustice-production.up.railway.app/'   // Your production Railway frontend
   ],
   credentials: true
 }));

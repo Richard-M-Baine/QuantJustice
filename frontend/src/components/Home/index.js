@@ -33,7 +33,7 @@ function Landing() {
     return (
         <div className='mainlandingHome'>
 
-            <h1 className="linkSectionLandingDiv" >
+            <h1 className="landingHeroHeading" >
                 Why Quant Justice?
                   <Link to="/spiel" >
                         <h3>Read This First</h3>

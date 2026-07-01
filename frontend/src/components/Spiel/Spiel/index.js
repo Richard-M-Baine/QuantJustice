@@ -21,8 +21,11 @@ function SpielComponent() {
         </p>
         <p>
           The dataset gave myself enough to run meaningful statistical analyses. Some basic comparisons
-          with Gabel (NJ's public court portal),  show the numbers are so far congruent but nowhere close to statistically confirming it. Compounding this is the simple fact that dataUniverse decided to abbreviate most of the crime names and in some cases there seems to be duplicates with similar crime names. Scraping gabel will help confirm the statute numbers and end this thorny issue.
+          with Gabel (NJ's public court portal),  show the numbers are so far congruent but nowhere close to statistically confirming it.  As you can see we are able to determine the average sentence for various crimes in the state.  Along with aberrations according to Judge and Counties.  This is now public source information.
+
+          
         </p>
+        <p> There some problems with this dataset.  First is the simple fact that dataUniverse decided to abbreviate most of the crime names and in some cases there seems to be duplicates with similar crime names. Scraping gabel will help confirm the statute numbers and end this thorny issue.  We can get further information from Gabel including comparing indictments to final pleas.  This can determine the "efficacy" of defense and prosecutors in the county.  It can also highlight "sweet heart" plea deals. </p>
       </div>
 
       <div className="spiel-section">

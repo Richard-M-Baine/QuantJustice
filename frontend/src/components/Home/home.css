@@ -7,8 +7,16 @@
     background: radial-gradient(ellipse at 50% 40%, #f5fafe 0%, #f5f8ff 55%, #ffffff 100%);
 }
 
+
+
 /* ── Hero / intro block ─────────────────────── */
 .mainlandingHome > h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.landingHeroHeading {
     text-align: center;
     font-size: 30px;
     margin-bottom: 1rem;

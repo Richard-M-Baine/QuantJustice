@@ -35,7 +35,7 @@ function SpielComponent() {
           <a href="https://portal.njcourts.gov/webe41/ExternalPGPA/" target="_blank" rel="noreferrer">
             NJ Courts Public Access (Gabel)
           </a>{' '}
-          — which sits behind captcha hell. Even for now semi-experienced Selenium users like myself, bulk scraping this crap is genuinely difficult.  Possibly illegal too. Who knows?
+           which sits behind captcha hell. Even for now semi-experienced Selenium users like myself, bulk scraping this crap is genuinely difficult. Bulk scraping this is technically difficult, and I genuinely don't know where the legal line is terms of service, CFAA-adjacent access questions, that kind of thing. That's exactly the guidance I'm looking for.
         </p>
         <div className="spiel-callout">
           <p>
@@ -70,6 +70,8 @@ function SpielComponent() {
           All defendant and victim names have been scrubbed from our datasets. DataUniverse was semi careless
           with this — it's probably for the best it is deleted.  I dont want someone to know your name if your case has been sealed or you were a rape victim.  It is difficult enough navigating life as it is.
         </p>
+
+        <p>The record-level dataset (individual case entries) is not public. What's shown on this site is aggregate statistics only — counts and sentencing distributions by county, judge, and offense. The original scrape included some material that shouldn't be public (unredacted documents, potential victim identifiers), which is part of why the raw data was pulled rather than partially redacted and republished.  If you need proof please let me know and I will give you a few hundred lines to show where it came from.</p>
       </div>
 
       <div className="spiel-section">

@@ -52,27 +52,7 @@ function DataSetsComponent() {
     <h2> Download our data sets so you can do your own "research" </h2>
      <img src={image} alt="Ralph" />
   
-
-<table>
-  <thead>
-    <tr>
-      <th>Dataset</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    {files.map(file => (
-      <tr key={file.file}>
-        <td>
-          <a href={`/datasets/${file.file}`} download>
-            {file.file}
-          </a>
-        </td>
-        <td>{file.description}</td>
-      </tr>
-    ))}
-  </tbody>
-</table>
+<p>For legalistic reasons we are not releasing it at present.  On closer inspection its possible to figure out a victim's name, especially for sexual abuse cases, by looking up the perpetrators dob.  Please contact me if you need proof.</p>
 
     </div>
   );
